@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class PreferenceController {
-    private static final String PREFERENCE_VERSION = "PREFERENCE V1";
+    private static final String PREFERENCE_VERSION = "PREFERENCE V2";
 
     @Autowired
     private RecommendationService recommendationService;
